@@ -1,0 +1,11 @@
+class Main{
+public static void main(String args[]){
+int l = args.length;
+System.out.println("length"+l);
+for(String i:args)
+{
+   System.out.println(i.length()+" "+i.toLowerCase());
+   }
+  } 
+}
+
